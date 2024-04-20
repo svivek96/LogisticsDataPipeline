@@ -35,7 +35,7 @@ file_scan_task = GCSObjectsWithPrefixExistenceSensor(
 )
 
 PROJECT_ID='pyspark-learning-407410'
-CLUSTER_NAME='project-3-cluster'
+CLUSTER_NAME='Airflow-Cluster'
 REGION='us-central1'
 CLUSTER_CONFIG = {
     "master_config": {
